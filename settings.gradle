@@ -1,2 +1,2 @@
-include ':app','hg_videoplayer','gsyVideoPlayer-ex_so'
+include ':app','hg_videoplayer'
 rootProject.name='VideoPlayer-ex_so'

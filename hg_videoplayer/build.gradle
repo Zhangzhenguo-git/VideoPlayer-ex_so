@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-group 'com.github.826189539@qq.com'
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.1"
@@ -38,7 +37,6 @@ dependencies {
 
     //根据你的需求ijk模式的so
     api 'com.shuyu:gsyVideoPlayer-java:7.1.1'
-    implementation project(path: ':gsyVideoPlayer-ex_so')
     //更多ijk的编码支持
 //    api 'com.shuyu:gsyVideoPlayer-ex_so:7.1.1'
 
