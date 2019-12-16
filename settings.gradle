@@ -1,0 +1,2 @@
+include ':app','hg_videoplayer','gsyVideoPlayer-ex_so'
+rootProject.name='VideoPlayer-ex_so'
