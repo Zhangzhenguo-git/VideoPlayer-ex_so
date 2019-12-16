@@ -138,7 +138,7 @@ dependencies {
 //生成依赖01
 task makeJar(type:Copy){
     //如果之前存在，则先删除
-    delete 'build/libs/classe.jar'
+    delete 'build/libs/classe11.jar'
     //设置拷贝的文件
     from('build/intermediates/packaged-classes/debug/')
     //生成jar包后的文件目录位置
@@ -146,6 +146,6 @@ task makeJar(type:Copy){
     //include,exclude参数来设置过滤
     include('classe.jar')
     //重命名
-    rename('classe.jar','classe.jar')
+    rename('classe.jar','classe.jar11')
 }
 makeJar.dependsOn(build)
